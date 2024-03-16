@@ -1,100 +1,100 @@
-PLEN2 | PLEN Project Company Inc.
-===============================================================================
-
-The world's first printable open-source humanoid.
-
-
-## Getting Started
-1. [Download](https://github.com/plenprojectcompany/PLEN2/archive/master.zip) this repository.
-2. Get control boards and servo motors. [Buy all!](https://plen.jp/shop/)
-3. Install the firmware. (This is placed "/arduino/firmware/" directory.)
-   [See also...](https://plen.jp/playground/wiki/tutorials/plen2/firmware)
-4. Print and assemble all *.stl files. (There are in the "/stl/" directory.)
-    - [Print Details](http://plen.jp/playground/wiki/specifications/index.html)
-    - [Assembling Instructions](https://plen.jp/playground/wiki/tutorials/index.html)
-5. Configure home positions of joints. (This step could be done by using
-   [PLEN Utils](https://github.com/plenprojectcompany/plen-ControlServer/releases).)
-   [See also...](https://plen.jp/playground/wiki/tutorials/plen2/tune)
-6. Write all motions. (Please check "/motions/*/" directory and also use PLEN Utils.)
-   [See also...](https://plen.jp/playground/wiki/tutorials/plen2/motion)
-7. Hello, world where PLEN is!
-
-
-## Recommended Software Set
-- [Firmware for Arduino, v1.4.1](https://github.com/plenprojectcompany/plen-Firmware_Arduino/releases/tag/v1.4.1)
-- [ControlServer, v2.4.1](https://github.com/plenprojectcompany/plen-ControlServer/releases/tag/v2.4.1)
-- [MotionEditor, v1.4.0](https://github.com/plenprojectcompany/plen-MotionEditor_Web/releases/tag/v1.4.0)
-
-
-## Enjoy More, with PLEN :)
-- Let PLEN move as you like! [Check it out.](https://plen.jp/playground/motion-editor/)
-- Learn about creativity thinking, structuring logics, or programing. [Check it out.](https://plen.jp/playground/scenography/)
-- Communicate other users. [Check it out.](https://plen.jp/playground/forum/)
-- Get more details of PLEN. [Check it out.](https://plen.jp/playground/wiki/)
-- etc...
-
-
-## Development Repositories
-If you want to customize something of PLEN2 yourself, please check repositories below.
-
-### 3D Model
-- [For Autodesk Fusion 360](https://github.com/plenprojectcompany/plen-3DModel_Fusion360)
-
-### Arduino
-We define here as the default repository of the firmware,
-and it's already installed on a control-board.
-
-If you are interested deeply in the firmware, please check
-[a development repository](https://github.com/plenprojectcompany/plen-Firmware_Arduino).
-
-### Android
-- [Controller and visual programming language](https://github.com/plenprojectcompany/plen-Scenography_Android)
-- You could download the built application on the [Play Store page](https://play.google.com/store/apps/details?id=jp.plen.scenography).
-
-### iOS
-- [Controller and visual programming language](https://github.com/plenprojectcompany/plen-Scenography_iOS)
-- You could download the built application on the [App Store page](https://itunes.apple.com/gb/app/scenography/id1104624847?mt=8).
-
-### Web Application
-- [Motion editor](https://github.com/plenprojectcompany/plen-MotionEditor_Web)
-- [Control server](https://github.com/plenprojectcompany/plen-ControlServer), a communication tool between HTTP and Serial
-
-### Eagle
-> EAGLE PCB Design Software is the tool of choice for thousands of engineers worldwide.
-> With 3 modules and a common interface, EAGLE offers a variety of product combinations
-> and allows every user to choose the configuration that meets their individual requirements.
-> (origin: http://www.cadsoftusa.com/)
-
-- Printed circuit board CAD for [control-board](https://github.com/plenprojectcompany/plen-ControlBoard)
-- Printed circuit board CAD for [head-board](https://github.com/plenprojectcompany/plen-HeadBoard)
-- Printed circuit board CAD for [edison-board](https://github.com/plenprojectcompany/plen-EdisonBoard)
-
-### Etc...
-You could see the all open-source products on [the GitHub account](https://github.com/plenprojectcompany).
-Also, we have set up the GitHub account [plen-admin](https://github.com/plen-admin) as deprecated products manager.
-
-
-## Laws of PLEN
-You could use PLEN for every imaginable things, but please observe the following laws strictly.
-
-1. PLEN must not fight.
-2. PLEN must not give someone a feeling of discomfort.
-3. PLEN must be able to inherit its characteristics.
-
-
-## Copyright & Contributors
-- [PLEN Project Company Inc](https://plen.jp/)
-
-### 3D Model
-- Takuya KAMURA
-- Naohiro HAYAISHI
-- Naoki IWAMARU
-
-### Arduino Firmware
-- Kazuyuki TAKASE
-- Naohiro HAYAISHI
-
-### Motion Structure
-- Naohiro HAYAISHI
-- Natsuo AKAZAWA
-- Sho SUZUKI
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PLEN2 | </font><font style="vertical-align: inherit;">PLEN 项目公司</font></font></h1><a id="user-content-plen2--plen-project-company-inc" class="anchor" aria-label="永久链接：PLEN2 |  PLEN 项目公司" href="#plen2--plen-project-company-inc"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">世界上第一个可打印的开源人形机器人。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">入门</font></font></h2><a id="user-content-getting-started" class="anchor" aria-label="永久链接：开始使用" href="#getting-started"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ol dir="auto">
+<li><a href="https://github.com/plenprojectcompany/PLEN2/archive/master.zip"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下载</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这个存储库。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取控制板和伺服电机。</font></font><a href="https://plen.jp/shop/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">购买所有！</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装固件。</font><font style="vertical-align: inherit;">（这被放置在“/arduino/firmware/”目录中。）
+</font></font><a href="https://plen.jp/playground/wiki/tutorials/plen2/firmware" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另请参阅...</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">打印并组装所有 *.stl 文件。</font><font style="vertical-align: inherit;">（在“/stl/”目录中有。）
+</font></font><ul dir="auto">
+<li><a href="http://plen.jp/playground/wiki/specifications/index.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">打印详情</font></font></a></li>
+<li><a href="https://plen.jp/playground/wiki/tutorials/index.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组装说明</font></font></a></li>
+</ul>
+</li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置关节的起始位置。</font></font><a href="https://github.com/plenprojectcompany/plen-ControlServer/releases"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（此步骤可以通过使用PLEN Utils</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来完成
+</font><font style="vertical-align: inherit;">。）
+</font></font><a href="https://plen.jp/playground/wiki/tutorials/plen2/tune" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">另请参阅...</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">写下所有动议。</font><font style="vertical-align: inherit;">（请检查“/motions/*/”目录并使用 PLEN Utils。）另
+</font></font><a href="https://plen.jp/playground/wiki/tutorials/plen2/motion" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请参阅...</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">你好，PLEN所在的世界！</font></font></li>
+</ol>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">推荐软件集</font></font></h2><a id="user-content-recommended-software-set" class="anchor" aria-label="永久链接：推荐的软件集" href="#recommended-software-set"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://github.com/plenprojectcompany/plen-Firmware_Arduino/releases/tag/v1.4.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Arduino 固件，v1.4.1</font></font></a></li>
+<li><a href="https://github.com/plenprojectcompany/plen-ControlServer/releases/tag/v2.4.1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">控制服务器，v2.4.1</font></font></a></li>
+<li><a href="https://github.com/plenprojectcompany/plen-MotionEditor_Web/releases/tag/v1.4.0"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运动编辑器，v1.4.0</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与 PLEN 一起享受更多:)</font></font></h2><a id="user-content-enjoy-more-with-plen-" class="anchor" aria-label="永久链接：使用 PLEN 享受更多:)" href="#enjoy-more-with-plen-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">让 PLEN 随心所欲地移动！</font></font><a href="https://plen.jp/playground/motion-editor/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一探究竟。</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解创造性思维、结构化逻辑或编程。</font></font><a href="https://plen.jp/playground/scenography/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一探究竟。</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与其他用户沟通。</font></font><a href="https://plen.jp/playground/forum/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一探究竟。</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取 PLEN 的更多详细信息。</font></font><a href="https://plen.jp/playground/wiki/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一探究竟。</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ETC...</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发存储库</font></font></h2><a id="user-content-development-repositories" class="anchor" aria-label="永久链接：开发存储库" href="#development-repositories"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想自己定制 PLEN2 的某些内容，请检查下面的存储库。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">3D模型</font></font></h3><a id="user-content-3d-model" class="anchor" aria-label="永久链接：3D 模型" href="#3d-model"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://github.com/plenprojectcompany/plen-3DModel_Fusion360"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于 Autodesk Fusion 360</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Arduino</font></font></h3><a id="user-content-arduino" class="anchor" aria-label="永久链接：Arduino" href="#arduino"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们在这里定义固件的默认存储库，并且它已经安装在控制板上。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您对固件很感兴趣，请查看
+</font></font><a href="https://github.com/plenprojectcompany/plen-Firmware_Arduino"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发存储库</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安卓</font></font></h3><a id="user-content-android" class="anchor" aria-label="固定链接：安卓" href="#android"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://github.com/plenprojectcompany/plen-Scenography_Android"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">控制器和可视化编程语言</font></font></a></li>
+<li><font style="vertical-align: inherit;"></font><a href="https://play.google.com/store/apps/details?id=jp.plen.scenography" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在Play 商店页面</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下载构建的应用程序</font><font style="vertical-align: inherit;">。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">iOS系统</font></font></h3><a id="user-content-ios" class="anchor" aria-label="永久链接：iOS" href="#ios"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://github.com/plenprojectcompany/plen-Scenography_iOS"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">控制器和可视化编程语言</font></font></a></li>
+<li><font style="vertical-align: inherit;"></font><a href="https://itunes.apple.com/gb/app/scenography/id1104624847?mt=8" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在App Store 页面</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下载构建的应用程序</font><font style="vertical-align: inherit;">。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Web应用程序</font></font></h3><a id="user-content-web-application" class="anchor" aria-label="永久链接：网络应用程序" href="#web-application"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://github.com/plenprojectcompany/plen-MotionEditor_Web"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">动作编辑器</font></font></a></li>
+<li><a href="https://github.com/plenprojectcompany/plen-ControlServer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">控制服务器</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，HTTP和串口之间的通信工具</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">鹰</font></font></h3><a id="user-content-eagle" class="anchor" aria-label="永久链接： 鹰" href="#eagle"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<blockquote>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">EAGLE PCB 设计软件是全球数千名工程师的首选工具。</font><font style="vertical-align: inherit;">EAGLE 拥有 3 个模块和一个通用接口，提供多种产品组合，允许每个用户选择满足其个性化需求的配置。</font><font style="vertical-align: inherit;">（来源： http: </font></font><a href="http://www.cadsoftusa.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">//www.cadsoftusa.com/</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）</font></font></p>
+</blockquote>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><a href="https://github.com/plenprojectcompany/plen-ControlBoard"><font style="vertical-align: inherit;">控制板</font></a><font style="vertical-align: inherit;">印刷电路板CAD</font></font><a href="https://github.com/plenprojectcompany/plen-ControlBoard"><font style="vertical-align: inherit;"></font></a></li>
+<li><font style="vertical-align: inherit;"><a href="https://github.com/plenprojectcompany/plen-HeadBoard"><font style="vertical-align: inherit;">床头板</font></a><font style="vertical-align: inherit;">印刷电路板 CAD</font></font><a href="https://github.com/plenprojectcompany/plen-HeadBoard"><font style="vertical-align: inherit;"></font></a></li>
+<li><font style="vertical-align: inherit;"><a href="https://github.com/plenprojectcompany/plen-EdisonBoard"><font style="vertical-align: inherit;">爱迪生电路板</font></a><font style="vertical-align: inherit;">的印刷电路板 CAD</font></font><a href="https://github.com/plenprojectcompany/plen-EdisonBoard"><font style="vertical-align: inherit;"></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ETC...</font></font></h3><a id="user-content-etc" class="anchor" aria-label="永久链接：等等..." href="#etc"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://github.com/plenprojectcompany"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在GitHub 帐户</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上看到所有开源产品</font><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">此外，我们还设置了 GitHub 帐户</font></font><a href="https://github.com/plen-admin"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">plen-admin</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为已弃用的产品经理。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PLEN 法则</font></font></h2><a id="user-content-laws-of-plen" class="anchor" aria-label="永久链接：PLEN 法则" href="#laws-of-plen"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以将 PLEN 用于所有可以想象到的事情，但请严格遵守以下规则。</font></font></p>
+<ol dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PLEN 不得战斗。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PLEN 不得给某人带来不适的感觉。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PLEN必须能够继承它的特性。</font></font></li>
+</ol>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">版权和贡献者</font></font></h2><a id="user-content-copyright--contributors" class="anchor" aria-label="永久链接：版权和贡献者" href="#copyright--contributors"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://plen.jp/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PLEN项目公司</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">3D模型</font></font></h3><a id="user-content-3d-model-1" class="anchor" aria-label="永久链接：3D 模型" href="#3d-model-1"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">神村拓哉</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">林石直弘</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">岩丸直树</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Arduino固件</font></font></h3><a id="user-content-arduino-firmware" class="anchor" aria-label="永久链接：Arduino 固件" href="#arduino-firmware"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">高濑一&ZeroWidthSpace;&ZeroWidthSpace;之</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">林石直弘</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运动结构</font></font></h3><a id="user-content-motion-structure" class="anchor" aria-label="永久链接：运动结构" href="#motion-structure"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">林石直弘</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">赤泽那津夫</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">铃木翔</font></font></li>
+</ul>
+</article></div>
